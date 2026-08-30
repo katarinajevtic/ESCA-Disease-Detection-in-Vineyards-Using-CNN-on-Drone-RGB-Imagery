@@ -80,7 +80,7 @@ esca-cnn-detection/
 
 The dataset consists of high-resolution RGB drone images of vineyards (DJI), annotated in [LabelMe](https://github.com/labelmeai/labelme) JSON format. Images come from three vineyard sites (`vinarija2`, `vinarija3`, `vinarija4`) captured in July–August 2024.
 
-**The dataset is not included in this repository** due to its size (~10 GB) and data-sharing restrictions. See [`data/README.md`](data/README.md) for the expected folder layout.
+**The dataset is not included in this repository** due to its size and data-sharing restrictions. See [`data/README.md`](data/README.md) for the expected folder layout.
 
 ## Getting started
 
