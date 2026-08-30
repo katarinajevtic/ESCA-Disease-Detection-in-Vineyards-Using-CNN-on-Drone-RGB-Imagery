@@ -1,0 +1,42 @@
+[TRAIN]
+vinarija2_rezultati/DJI_20240716083147_0021 | bolestan=8 | zdrav=133
+vinarija4_rezultati/DJI_20240822130421_0028 | bolestan=3 | zdrav=4
+vinarija2_rezultati/DJI_20240716083138_0017 | bolestan=34 | zdrav=37
+vinarija2_rezultati/DJI_20240716083117_0007 | bolestan=38 | zdrav=32
+vinarija2_rezultati/DJI_20240716083200_0027 | bolestan=32 | zdrav=149
+vinarija3_rezultati/DJI_20240716111624_0025 | bolestan=16 | zdrav=130
+vinarija3_rezultati/DJI_20240716111543_0005 | bolestan=18 | zdrav=75
+vinarija2_rezultati/DJI_20240716083123_0010 | bolestan=35 | zdrav=40
+vinarija3_rezultati/DJI_20240716111720_0049 | bolestan=11 | zdrav=3
+vinarija2_rezultati/DJI_20240716083144_0020 | bolestan=39 | zdrav=50
+vinarija2_rezultati/DJI_20240716083111_0004 | bolestan=41 | zdrav=32
+vinarija2_rezultati/DJI_20240716083105_0001 | bolestan=31 | zdrav=25
+vinarija2_rezultati/DJI_20240716083136_0016 | bolestan=30 | zdrav=34
+vinarija2_rezultati/DJI_20240716083140_0018 | bolestan=42 | zdrav=49
+vinarija4_rezultati/DJI_20240822130411_0026 | bolestan=3 | zdrav=2
+vinarija2_rezultati/DJI_20240716083129_0013 | bolestan=32 | zdrav=50
+vinarija2_rezultati/DJI_20240716083154_0024 | bolestan=30 | zdrav=123
+vinarija2_rezultati/DJI_20240716083127_0012 | bolestan=28 | zdrav=24
+vinarija2_rezultati/DJI_20240716083133_0015 | bolestan=32 | zdrav=44
+vinarija4_rezultati/DJI_20240822130923_0084 | bolestan=1 | zdrav=25
+vinarija2_rezultati/DJI_20240716083109_0003 | bolestan=40 | zdrav=37
+vinarija2_rezultati/DJI_20240716083107_0002 | bolestan=35 | zdrav=41
+vinarija2_rezultati/DJI_20240716083131_0014 | bolestan=27 | zdrav=35
+vinarija2_rezultati/DJI_20240716083121_0009 | bolestan=34 | zdrav=27
+
+[VALIDATION]
+vinarija2_rezultati/DJI_20240716083119_0008 | bolestan=37 | zdrav=27
+vinarija2_rezultati/DJI_20240716083215_0033 | bolestan=1 | zdrav=96
+vinarija4_rezultati/DJI_20240822130416_0027 | bolestan=3 | zdrav=0
+vinarija2_rezultati/DJI_20240716083125_0011 | bolestan=30 | zdrav=39
+vinarija2_rezultati/DJI_20240716083155_0025 | bolestan=27 | zdrav=154
+
+[TEST]
+vinarija3_rezultati/DJI_20240716111541_0004 | bolestan=29 | zdrav=7
+vinarija2_rezultati/DJI_20240716083142_0019 | bolestan=42 | zdrav=53
+vinarija3_rezultati/DJI_20240716111536_0002 | bolestan=4 | zdrav=33
+vinarija2_rezultati/DJI_20240716083115_0006 | bolestan=45 | zdrav=41
+vinarija2_rezultati/DJI_20240716083113_0005 | bolestan=49 | zdrav=29
+vinarija2_rezultati/DJI_20240716083158_0026 | bolestan=23 | zdrav=149
+vinarija4_rezultati/DJI_20240822130928_0085 | bolestan=1 | zdrav=15
+

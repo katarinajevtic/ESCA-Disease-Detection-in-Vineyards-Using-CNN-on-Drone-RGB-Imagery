@@ -1,0 +1,29 @@
+DEFAULT THRESHOLD = 0.50
+============================================================
+              precision    recall  f1-score   support
+
+    bolestan     0.9650    0.7150    0.8214       193
+       zdrav     0.8541    0.9847    0.9148       327
+
+    accuracy                         0.8846       520
+   macro avg     0.9096    0.8499    0.8681       520
+weighted avg     0.8953    0.8846    0.8801       520
+
+CONFUSION MATRIX
+[[138  55]
+ [  5 322]]
+
+TUNED THRESHOLD = 0.36
+============================================================
+              precision    recall  f1-score   support
+
+    bolestan     0.9419    0.7565    0.8391       193
+       zdrav     0.8712    0.9725    0.9191       327
+
+    accuracy                         0.8923       520
+   macro avg     0.9066    0.8645    0.8791       520
+weighted avg     0.8975    0.8923    0.8894       520
+
+CONFUSION MATRIX
+[[146  47]
+ [  9 318]]
