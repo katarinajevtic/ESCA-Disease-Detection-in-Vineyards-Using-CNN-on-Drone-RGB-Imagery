@@ -1,0 +1,47 @@
+# Dataset
+
+The dataset is **not included** in this repository due to its size and data-sharing restrictions.
+
+## Expected structure
+
+The pipeline expects one or more folders containing [LabelMe](https://github.com/labelmeai/labelme) JSON annotation files (suffixed `_D.json`) with embedded or referenced RGB images. The default location is `dataset_json/` in the project root.
+
+```
+dataset_json/
+├── vinarija2_rezultati/
+│   ├── DJI_20240716083105_0001_D.json
+│   ├── DJI_20240716083107_0002_D.json
+│   └── ...
+├── vinarija3_rezultati/
+│   ├── DJI_20240716111536_0002_D.json
+│   └── ...
+└── vinarija4_rezultati/
+    ├── DJI_20240822130411_0026_D.json
+    └── ...
+```
+
+Each JSON file contains:
+- `imageData` — base64-encoded RGB image (or `imagePath` pointing to a co-located image file).
+- `shapes` — polygon annotations with labels such as `eska` and `meska` marking diseased vine regions.
+
+## Annotation labels
+
+| Label | Meaning | Used as |
+|-------|---------|---------|
+| `eska` | ESCA-symptomatic vine | Diseased (class 0) |
+| `meska` | Mixed-ESCA symptoms | Diseased (class 0) |
+| Other / unannotated green regions | Healthy vegetation | Healthy (class 1) |
+
+## Reproducing the experiments
+
+If you have access to the dataset, place the folders under `dataset_json/` and run:
+
+```bash
+python classification.py
+```
+
+Or specify a custom path:
+
+```bash
+python classification.py --dataset_json /path/to/your/data
+```
